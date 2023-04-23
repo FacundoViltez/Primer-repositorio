@@ -1,0 +1,29 @@
+h2 {
+
+    color: rgb(red, green, blue)
+
+} 
+
+ul {
+
+list-style-type: none;
+
+}
+
+p {
+
+    color: rgb(red, green, blue);
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: left;
+}
+
+a { 
+text-decoration: none;
+}
+
+/*PROPIDADES DE FONDO*/
+
+
+
+
