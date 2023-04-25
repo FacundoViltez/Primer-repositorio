@@ -1,12 +1,29 @@
-h1 {
-    color:rgb(23, 59, 59); 
-
+body{
+    background-color: rgb(87, 243, 243);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 
 
 
+h1{
+    color:rgb(19, 126, 85)ray;
+}
 
+h2 {
+    color: rgb(35, 138, 138);
+
+}
+
+h3{
+    color: rgb(75, 82, 82);
+
+}
+
+h4{
+    color: rgb(17, 27, 122);
+
+}
 
 
 
