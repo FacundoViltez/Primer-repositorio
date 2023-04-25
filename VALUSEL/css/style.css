@@ -1,27 +1,71 @@
-body{
-    background-color: rgb(87, 243, 243);
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+*{
+    margin: 0px;
+    padding: 0px;
 }
+
+body{
+    background-color: rgba(2, 22, 22, 0.911);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#container{
+    width: 1100px;
+    margin: 0px auto;
+    border: 5px rgb(0, 0, 0);
+}
+
+header{
+    background-color: rgb(0, 119, 109);
+    height: 80px;
+    width: 90%;
+    text-align: center;
+    line-height: 80px;
+    color: white;
+}
+
+
+nav{
+    background-color: rgb(0, 119, 109);
+    height: 40px;
+
+
+}
+
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin:40px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.clearfix{
+    clear:both;
+}
+
+
+
 
 
 
 
 h1{
-    color:rgb(19, 126, 85)ray;
+    color:rgb(237, 248, 248)ray;
 }
 
 h2 {
-    color: rgb(35, 138, 138);
+    color: rgb(182, 196, 196);
 
 }
 
 h3{
-    color: rgb(75, 82, 82);
+    color: rgb(128, 207, 207);
 
 }
 
 h4{
-    color: rgb(17, 27, 122);
+    color: rgba(4, 8, 44, 0.788);
 
 }
 
