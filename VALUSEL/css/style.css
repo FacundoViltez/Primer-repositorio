@@ -4,23 +4,31 @@
 }
 
 body{
-    background-color: rgba(2, 22, 22, 0.911);
+    background: #780206;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-#container{
-    width: 1100px;
-    margin: 0px auto;
-    border: 5px rgb(0, 0, 0);
-}
+
 
 header{
     background-color: rgb(0, 119, 109);
-    height: 80px;
-    width: 90%;
+    height: 45px;
+    width: 100%;
     text-align: center;
-    line-height: 80px;
+    line-height: 25px;
     color: white;
+    margin: 1px;
+    padding: 1%;
+}
+
+.nav-link{
+    color: #ee363c;
+
 }
 
 
