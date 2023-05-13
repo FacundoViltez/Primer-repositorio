@@ -17,12 +17,19 @@ header{
     left: 1px;
     height: 45px;
     width: 100%;
-    text-align: center;
+    text-align:center;
     line-height: 25px;
-    color: white;
-    margin: 3px;
-    padding: 3%; 
+    color: rgb(82, 96, 223);
+    margin: 0px;
+    padding: 0%; 
 
+    .id-container{
+        color: #fff;
+        width: 10px;
+        height: 10px;
+        margin: 20%;
+        padding: 20%;
+    }
 }
 
 
