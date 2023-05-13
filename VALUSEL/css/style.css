@@ -1,56 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
-
-
-
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body{
-    background: #780206;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    background: linear-gradient(to right, #061161, #780206);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
 }
 
 
 
 header{
-    background-color: rgb(0, 119, 109);
+    right: 1px;
+    left: 1px;
     height: 45px;
     width: 100%;
     text-align: center;
     line-height: 25px;
     color: white;
-    margin: 1px;
-    padding: 1%;
-}
-
-.nav-link{
-    color: #ee363c;
+    margin: 3px;
+    padding: 3%; 
 
 }
 
 
-nav{
-    background-color: rgb(0, 119, 109);
-    height: 40px;
 
 
-}
-
-
-nav ul section li{
-    float: left;
-    list-style: none;
-    margin:40px;
-    line-height: 30px;
-    text-align: center;
-}
 
 .clearfix{
     clear:both;
@@ -64,26 +41,78 @@ nav ul section li{
 
 h1{
     color:rgb(237, 248, 248)ray;
+    font-size: 300%;
+    font-family:fantasy;
+    text-align: center;
 }
 
 h2 {
-    color: rgb(182, 196, 196);
-
+    color: rgb(239, 248, 248);
+    font-size: 300%;
+    font-family:fantasy;
+    text-align: center;
 }
 
 h3{
     color: rgb(128, 207, 207);
-
+    font-size: 300%;
+    font-family:fantasy;
+    text-align: center;
 }
 
 h4{
-    color: rgba(4, 8, 44, 0.788);
+    color: rgba(189, 192, 212, 0.788);
+    font-size: 300%;
+    font-family:fantasy;
+    text-align: center;
+}
 
+p{
+    color: aqua;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 
 
 
+.nav-link{
+    color: #d83983;
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #ce9fb5;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.nav{
+    background-color: #191919;
+
+}
 
 
+    
+ul{
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+}
 
+.nav-logo{
+    color: #d83983;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#container{
+    color: aqua;
+    font-family: cursive;
+
+}
