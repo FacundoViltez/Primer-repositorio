@@ -1,0 +1,25 @@
+@media only screen and (max-width:804px){
+    
+    /**menu de navegacion**/
+
+    .body{
+        position: absolute;
+        top: 12px;
+        right: 30px;
+        display: flex;
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .nav-link{
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 60px);
+        background-color: #000;
+        border-top: 3px solid #fff;
+    }
+
+
+}
