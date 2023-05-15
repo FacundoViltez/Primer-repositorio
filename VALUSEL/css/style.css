@@ -17,20 +17,26 @@ header{
     left: 1px;
     height: 45px;
     width: 100%;
-    text-align:center;
+    text-align: center;
     line-height: 25px;
-    color: rgb(82, 96, 223);
-    margin: 0px;
-    padding: 0%; 
+    color: white;
+    margin: 3px;
+    padding: 3%; 
 
-    .id-container{
-        color: #fff;
-        width: 10px;
-        height: 10px;
-        margin: 20%;
-        padding: 20%;
-    }
 }
+
+
+
+
+
+.clearfix{
+    clear:both;
+}
+
+
+
+
+
 
 
 h1{
@@ -55,11 +61,16 @@ h3{
 }
 
 h4{
-    color: rgba(189, 192, 212, 0.788);
+    color: rgba(197, 235, 32, 0.788);
     font-size: 300%;
     font-family:fantasy;
     text-align: center;
 }
+
+main div h4{
+    background-color: #d83983
+}
+
 
 p{
     color: aqua;
@@ -71,42 +82,67 @@ p{
 
 
 
-.nav-link{
-    color: #d83983;
+nav ul section li{
+    color: #da5191;
     text-decoration: none;
     font-size: 12px;
     background-color: #ce9fb5;
     border-radius: 10px;
     padding: 10px;
-
-}
-
-.nav{
-    background-color: #191919;
-
-}
-
-
+    margin: 0;
     
-ul{
-    display: flex;
-    justify-content:space-evenly;
+    
+}
+
+nav ul section li a{
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+nav ul section li a:hover{
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+    transition: all 300ms ease;
+}
+
+ul section li{
+    float: left;
     list-style: none;
+    margin: 65px;
 }
-
-.nav-logo{
-    color: #d83983;
-}
-
-.hero{
-    display: flex;
-    flex-direction: column;
-
-}
-
 
 #container{
-    color: aqua;
-    font-family: cursive;
+    display: flex;
+    padding-left: 300px;
+    justify-content: space-between;
+    margin: 0px auto;
+    border: 1px red;
+    animation: float 2s lineal infinite;
+}
 
+footer form{
+    background-color: deeppink;
+    width: 800px;
+    height: 600px;
+    margin-left: 250px;
+    border-radius: 10px;
+}
+footer form .mb-3{
+    display: grid;
+    width: 600px;
+    margin-left: 100px;
+}
+footer form .mb-3 label{
+    font-weight: 500;
+}
+footer form .mb-3 #name{
+    border-radius: 5px;
+    border:none;
+    height: 35px;
+}
+footer form button{
+    width: 100px;
+    margin-left: 600px;
 }
