@@ -40,72 +40,103 @@ header{
 
 
 h1{
-    color:rgb(237, 248, 248)ray;
+    color:rgb(215, 112, 247)ray;
     font-size: 300%;
     font-family:fantasy;
     text-align: center;
 }
 
-h2 {
-    color: rgb(239, 248, 248);
+div h2{
+    color: #83224f;
     font-size: 300%;
     font-family:fantasy;
     text-align: center;
+    font-size:x-large;
 }
 
-h3{
-    color: rgb(128, 207, 207);
+div h3{
+    color: #83224f;
     font-size: 300%;
     font-family:fantasy;
     text-align: center;
+    font-size:x-large;
 }
 
-h4{
-    color: rgba(197, 235, 32, 0.788);
+div h4{
+    color: #83224f;
     font-size: 300%;
     font-family:fantasy;
     text-align: center;
+    font-size:x-large;
+}
+
+
+main div h2{
+    background-color: #f39ac4 
+}
+
+main div h3{
+    background-color: #f39ac4 
 }
 
 main div h4{
-    background-color: #d83983
+    background-color: #f39ac4 
+}
+
+
+div p{
+    color: #dbec9c;
+    font-size: 125%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
 }
 
 
 p{
-    color: aqua;
-    font-size: 200%;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #dcee8d;
+    font-size: 125%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
 }
 
 
-
-
 nav ul section li{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-link{
+    color: #da5191;
+    font-family:fantasy;
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #571534;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+nav ul section li a{
     color: #da5191;
     text-decoration: none;
     font-size: 12px;
     background-color: #ce9fb5;
     border-radius: 10px;
     padding: 10px;
-    margin: 0;
-    
-    
-}
-
-nav ul section li a{
-    text-decoration: none;
-    font-size: 18px;
-
+    margin: 20px;
 }
 
 nav ul section li a:hover{
     text-decoration: none;
     font-size: 22px;
     color: #fff;
+    background-color:#83224f;
+    border-radius: 12px;
+    padding: 12px;
     transition: all 300ms ease;
 }
+
 
 ul section li{
     float: left;
@@ -113,13 +144,19 @@ ul section li{
     margin: 65px;
 }
 
-#container{
+.imagen{
     display: flex;
     padding-left: 300px;
     justify-content: space-between;
     margin: 0px auto;
     border: 1px red;
+    width: 60vw;
+    height: 40vw;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
     animation: float 2s lineal infinite;
+
 }
 
 footer form{
