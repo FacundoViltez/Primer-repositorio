@@ -183,3 +183,13 @@ footer form button{
     width: 100px;
     margin-left: 600px;
 }
+
+p.parrafobs{
+    color: #70103d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mb-3{
+    color: #70103d;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
